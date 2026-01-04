@@ -195,7 +195,7 @@ int main() {
         vector < ll > a(n);
 
         cinvec(a);
-        unordered_map<ll, ll> last;
+        map<ll, ll> last;
 
         ll res = 0;
         for (int l = 0, r = 0; r < n; r++) {
@@ -210,3 +210,4 @@ int main() {
         finished: ;
     }
 }
+
